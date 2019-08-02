@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="706" it="0" lt="80" ct="41" ts="1564670587854" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22841" sby="258" ng="1" na="1">
+  <httpSample t="80" it="0" lt="80" ct="41" ts="1564670587854" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <responseHeader class="java.lang.String">HTTP/1.1 301 Moved Permanently
+Date: Thu, 01 Aug 2019 14:43:08 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 157
+Connection: keep-alive
+Location: https://www.cnblogs.com/UncleYong/
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <redirectLocation class="java.lang.String">https://www.cnblogs.com/UncleYong/</redirectLocation>
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="623" it="0" lt="603" ct="544" ts="1564670587937" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22429" sby="129" ng="1" na="1">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 01 Aug 2019 14:43:08 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 22088
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private, max-age=10
+Expires: Thu, 01 Aug 2019 14:43:18 GMT
+Last-Modified: Thu, 01 Aug 2019 14:43:08 GMT
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 01 Aug 2019 14:43:08 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 22088
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private, max-age=10
+Expires: Thu, 01 Aug 2019 14:43:18 GMT
+Last-Modified: Thu, 01 Aug 2019 14:43:08 GMT
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://www.cnblogs.com/UncleYong/</redirectLocation>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="657" it="0" lt="129" ct="68" ts="1564671695052" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22841" sby="258" ng="1" na="1">
+  <httpSample t="129" it="0" lt="129" ct="68" ts="1564671695052" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="526" it="0" lt="507" ct="464" ts="1564671695183" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22429" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="755" it="0" lt="105" ct="39" ts="1564672103233" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22841" sby="258" ng="1" na="1">
+  <httpSample t="105" it="0" lt="105" ct="39" ts="1564672103233" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="648" it="0" lt="630" ct="510" ts="1564672103340" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22429" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="1725" it="0" lt="95" ct="58" ts="1564721022797" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22959" sby="258" ng="1" na="1">
+  <httpSample t="96" it="0" lt="95" ct="58" ts="1564721022797" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="1628" it="0" lt="1585" ct="677" ts="1564721022894" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22547" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="3430" it="0" lt="1364" ct="1281" ts="1564721581367" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22959" sby="258" ng="1" na="1">
+  <httpSample t="1364" it="0" lt="1364" ct="1281" ts="1564721581367" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="2061" it="0" lt="2005" ct="1962" ts="1564721582736" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22547" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="3697" it="0" lt="1094" ct="120" ts="1564722512951" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22959" sby="258" ng="1" na="1">
+  <httpSample t="1095" it="0" lt="1094" ct="120" ts="1564722512951" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="2597" it="0" lt="2584" ct="2022" ts="1564722514051" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22547" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="2571" it="0" lt="1243" ct="1189" ts="1564726436580" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22455" sby="258" ng="1" na="1">
+  <httpSample t="1244" it="0" lt="1243" ct="1189" ts="1564726436580" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="1322" it="0" lt="1296" ct="1035" ts="1564726437829" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22043" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="1223" it="0" lt="100" ct="62" ts="1564726444594" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22455" sby="258" ng="1" na="1">
+  <httpSample t="101" it="0" lt="100" ct="62" ts="1564726444594" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="1119" it="0" lt="1107" ct="996" ts="1564726444698" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22043" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="1558" it="0" lt="277" ct="182" ts="1564726749126" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20649" sby="258" ng="1" na="1">
+  <httpSample t="278" it="0" lt="277" ct="182" ts="1564726749126" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="1276" it="0" lt="1233" ct="1087" ts="1564726749408" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20237" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="1652" it="0" lt="482" ct="85" ts="1564727454238" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20649" sby="258" ng="1" na="1">
+  <httpSample t="482" it="0" lt="482" ct="85" ts="1564727454238" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="1166" it="0" lt="1090" ct="1017" ts="1564727454724" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20237" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="2764" it="0" lt="396" ct="68" ts="1564728029348" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20649" sby="258" ng="1" na="1">
+  <httpSample t="396" it="0" lt="396" ct="68" ts="1564728029348" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="2363" it="0" lt="2343" ct="2299" ts="1564728029749" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20237" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="11722" it="0" lt="136" ct="96" ts="1564730502069" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20649" sby="258" ng="1" na="1">
+  <httpSample t="136" it="0" lt="136" ct="96" ts="1564730502069" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="11584" it="0" lt="11566" ct="1081" ts="1564730502207" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20237" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="665" it="0" lt="78" ct="51" ts="1564732906914" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20326" sby="258" ng="1" na="1">
+  <httpSample t="78" it="0" lt="78" ct="51" ts="1564732906914" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="586" it="0" lt="567" ct="527" ts="1564732906993" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="19914" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="2658" it="0" lt="68" ct="42" ts="1564734770543" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20326" sby="258" ng="1" na="1">
+  <httpSample t="69" it="0" lt="68" ct="42" ts="1564734770543" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="2588" it="0" lt="2567" ct="496" ts="1564734770613" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="19914" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="773" it="0" lt="147" ct="51" ts="1564739822200" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20539" sby="258" ng="1" na="1">
+  <httpSample t="148" it="0" lt="147" ct="51" ts="1564739822200" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="624" it="0" lt="604" ct="555" ts="1564739822349" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20127" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+</testResults>

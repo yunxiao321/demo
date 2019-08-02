@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="639" it="0" lt="65" ct="38" ts="1564670840823" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22841" sby="258" ng="1" na="1">
+  <httpSample t="65" it="0" lt="65" ct="38" ts="1564670840823" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <responseHeader class="java.lang.String">HTTP/1.1 301 Moved Permanently
+Date: Thu, 01 Aug 2019 14:47:21 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 157
+Connection: keep-alive
+Location: https://www.cnblogs.com/UncleYong/
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <redirectLocation class="java.lang.String">https://www.cnblogs.com/UncleYong/</redirectLocation>
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="573" it="0" lt="544" ct="493" ts="1564670840889" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="22429" sby="129" ng="1" na="1">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 01 Aug 2019 14:47:21 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 22088
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private, max-age=10
+Expires: Thu, 01 Aug 2019 14:47:31 GMT
+Last-Modified: Thu, 01 Aug 2019 14:47:21 GMT
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 01 Aug 2019 14:47:21 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 22088
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private, max-age=10
+Expires: Thu, 01 Aug 2019 14:47:31 GMT
+Last-Modified: Thu, 01 Aug 2019 14:47:21 GMT
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://www.cnblogs.com/UncleYong/</redirectLocation>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+</testResults>
