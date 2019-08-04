@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1370" it="0" lt="173" ct="136" ts="1564929445577" s="false" lb="HTTP Request" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="1359" sby="260" ng="1" na="1" hn="DESKTOP-8BO5O3M">
+  <httpSample t="174" it="0" lt="173" ct="136" ts="1564929445577" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="414" sby="130" ng="1" na="1" hn="DESKTOP-8BO5O3M">
+    <responseHeader class="java.lang.String">HTTP/1.1 301 Moved Permanently
+Date: Sun, 04 Aug 2019 14:37:23 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 158
+Connection: keep-alive
+Location: https://www.cnblogs.com/UncleYong1/
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+    <responseData class="java.lang.String">&lt;head&gt;&lt;title&gt;Document Moved&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;&lt;h1&gt;Object Moved&lt;/h1&gt;This document may be found &lt;a HREF=&quot;https://www.cnblogs.com/UncleYong1/&quot;&gt;here&lt;/a&gt;&lt;/body&gt;</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <redirectLocation class="java.lang.String">https://www.cnblogs.com/UncleYong1/</redirectLocation>
+    <java.net.URL>http://www.cnblogs.com/UncleYong1/</java.net.URL>
+  </httpSample>
+  <httpSample t="1193" it="0" lt="1193" ct="1153" ts="1564929445754" s="false" lb="HTTP Request-1" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="945" sby="130" ng="1" na="1" hn="DESKTOP-8BO5O3M">
+    <responseHeader class="java.lang.String">HTTP/1.1 404 Not Found
+Date: Sun, 04 Aug 2019 14:37:24 GMT
+Content-Type: text/html
+Content-Length: 759
+Connection: keep-alive
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+    <responseData class="java.lang.String">﻿&lt;!DOCTYPE html&gt;&#xd;
+&lt;html&gt;&#xd;
+&lt;head&gt;&#xd;
+    &lt;meta charset=&quot;utf-8&quot;&gt;&#xd;
+    &lt;title&gt;Error_404_资源不存在&lt;/title&gt;&#xd;
+	&lt;style type=&quot;text/css&quot;&gt;&#xd;
+	body{margin:8% auto 0;max-width: 550px; min-height: 200px;padding:10px;font-family: Verdana,Arial,Helvetica,sans-serif;font-size:14px;}p{color:#555;margin:10px 10px;}img {border:0px;}.d{color:#404040;}&#xd;
+	&lt;/style&gt;&#xd;
+&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+&lt;a href=&quot;http://www.cnblogs.com/&quot;&gt;&lt;img src=&quot;//static.cnblogs.com/images/logo_small.gif&quot; alt=&quot;cnblogs&quot;/&gt;&lt;/a&gt;&#xd;
+&lt;p&gt;&lt;b&gt;404.&lt;/b&gt; 抱歉! 您访问的资源不存在!&lt;/p&gt;&#xd;
+&lt;p class=&quot;d&quot;&gt;请确认您输入的网址是否正确，如果问题持续存在，请发邮件至contact&amp;#64;cnblogs.com与我们联系。&lt;/p&gt;&#xd;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/&quot;&gt;返回网站首页&lt;/a&gt;&lt;/p&gt;&#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>https://www.cnblogs.com/UncleYong1/</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 404 Not Found
+Date: Sun, 04 Aug 2019 14:37:24 GMT
+Content-Type: text/html
+Content-Length: 759
+Connection: keep-alive
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</requestHeader>
+  <responseData class="java.lang.String">﻿&lt;!DOCTYPE html&gt;&#xd;
+&lt;html&gt;&#xd;
+&lt;head&gt;&#xd;
+    &lt;meta charset=&quot;utf-8&quot;&gt;&#xd;
+    &lt;title&gt;Error_404_资源不存在&lt;/title&gt;&#xd;
+	&lt;style type=&quot;text/css&quot;&gt;&#xd;
+	body{margin:8% auto 0;max-width: 550px; min-height: 200px;padding:10px;font-family: Verdana,Arial,Helvetica,sans-serif;font-size:14px;}p{color:#555;margin:10px 10px;}img {border:0px;}.d{color:#404040;}&#xd;
+	&lt;/style&gt;&#xd;
+&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+&lt;a href=&quot;http://www.cnblogs.com/&quot;&gt;&lt;img src=&quot;//static.cnblogs.com/images/logo_small.gif&quot; alt=&quot;cnblogs&quot;/&gt;&lt;/a&gt;&#xd;
+&lt;p&gt;&lt;b&gt;404.&lt;/b&gt; 抱歉! 您访问的资源不存在!&lt;/p&gt;&#xd;
+&lt;p class=&quot;d&quot;&gt;请确认您输入的网址是否正确，如果问题持续存在，请发邮件至contact&amp;#64;cnblogs.com与我们联系。&lt;/p&gt;&#xd;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/&quot;&gt;返回网站首页&lt;/a&gt;&lt;/p&gt;&#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://www.cnblogs.com/UncleYong1/</redirectLocation>
+  <java.net.URL>https://www.cnblogs.com/UncleYong1/</java.net.URL>
+</httpSample>
+
+</testResults>

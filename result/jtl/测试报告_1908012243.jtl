@@ -226,4 +226,14 @@ User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
   <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
 </httpSample>
 
+<httpSample t="1370" it="0" lt="173" ct="136" ts="1564929445577" s="false" lb="HTTP Request" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="1359" sby="260" ng="1" na="1">
+  <httpSample t="174" it="0" lt="173" ct="136" ts="1564929445577" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="414" sby="130" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong1/</java.net.URL>
+  </httpSample>
+  <httpSample t="1193" it="0" lt="1193" ct="1153" ts="1564929445754" s="false" lb="HTTP Request-1" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="945" sby="130" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong1/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong1/</java.net.URL>
+</httpSample>
+
 </testResults>

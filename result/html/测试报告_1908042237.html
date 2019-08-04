@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Load Test Results</title>
+<style type="text/css">
+                body { font:normal 68% verdana,arial,helvetica; color:#000000; }
+                table tr td, table tr th { font-size: 68%; }
+                table.details tr th { color: #ffffff; font-weight: bold; text-align:center; background:#2674a6; white-space: pre-wrap; }
+                table.details tr td { background:#eeeee0; white-space: pre-wrap; }
+                h1 { margin: 0px 0px 5px; font: 165% verdana,arial,helvetica }
+                h2 { margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica }
+                h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }
+                .Failure { font-weight:bold; color:red; }
+                img { border-width: 0px; }
+                .expand_link { position: absolute; right: 0px; width: 27px; top: 1px; height: 27px; }
+                .page_details { display: none; }
+                .page_details_expanded { display: block; display/* hide this definition from  IE5/6 */: table-row; }
+                .key { min-width: 108px; width: 15%; }
+                .detail, #tdetail { display: none; }
+            </style>
+<script language="JavaScript">
+                function toggle_details(details_id) {
+                    var objImg = document.getElementById(details_id+"_image");
+                    var objTable = document.getElementById(details_id);
+                    if(objImg.alt == "collapse") {
+                        objImg.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEALQADQANam36RQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wDDQ0hOymuu20AAAL5dEVYdENvbW1lbnQATGljZW5zZWQgdG8gdGhlIEFwYWNoZSBTb2Z0d2FyZSBGb3VuZGF0aW9uIChBU0YpIHVuZGVyIG9uZSBvciBtb3JlCmNvbnRyaWJ1dG9yIGxpY2Vuc2UgYWdyZWVtZW50cy4gIFNlZSB0aGUgTk9USUNFIGZpbGUgZGlzdHJpYnV0ZWQgd2l0aAp0aGlzIHdvcmsgZm9yIGFkZGl0aW9uYWwgaW5mb3JtYXRpb24gcmVnYXJkaW5nIGNvcHlyaWdodCBvd25lcnNoaXAuClRoZSBBU0YgbGljZW5zZXMgdGhpcyBmaWxlIHRvIFlvdSB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wCih0aGUgIkxpY2Vuc2UiKTsgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoCnRoZSBMaWNlbnNlLiAgWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0CgogICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKClVubGVzcyByZXF1aXJlZCBieSBhcHBsaWNhYmxlIGxhdyBvciBhZ3JlZWQgdG8gaW4gd3JpdGluZywgc29mdHdhcmUKZGlzdHJpYnV0ZWQgdW5kZXIgdGhlIExpY2Vuc2UgaXMgZGlzdHJpYnV0ZWQgb24gYW4gIkFTIElTIiBCQVNJUywKV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuClNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmQKbGltaXRhdGlvbnMgdW5kZXIgdGhlIExpY2Vuc2UuhUUAtwAAAC1JREFUOMtjVCtZ9p+BAsDEQCEYNYAKBrAgc252RxKlSb10OfVcwDiakIaDAQDXcQefpMw+jAAAAABJRU5ErkJggg==";
+                        objImg.alt = "expand";
+                        objTable.className = "page_details_expanded";
+                    } else {
+                        objImg.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEALQADQANam36RQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wDDQ0cLbeSRoIAAAL5dEVYdENvbW1lbnQATGljZW5zZWQgdG8gdGhlIEFwYWNoZSBTb2Z0d2FyZSBGb3VuZGF0aW9uIChBU0YpIHVuZGVyIG9uZSBvciBtb3JlCmNvbnRyaWJ1dG9yIGxpY2Vuc2UgYWdyZWVtZW50cy4gIFNlZSB0aGUgTk9USUNFIGZpbGUgZGlzdHJpYnV0ZWQgd2l0aAp0aGlzIHdvcmsgZm9yIGFkZGl0aW9uYWwgaW5mb3JtYXRpb24gcmVnYXJkaW5nIGNvcHlyaWdodCBvd25lcnNoaXAuClRoZSBBU0YgbGljZW5zZXMgdGhpcyBmaWxlIHRvIFlvdSB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wCih0aGUgIkxpY2Vuc2UiKTsgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoCnRoZSBMaWNlbnNlLiAgWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0CgogICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKClVubGVzcyByZXF1aXJlZCBieSBhcHBsaWNhYmxlIGxhdyBvciBhZ3JlZWQgdG8gaW4gd3JpdGluZywgc29mdHdhcmUKZGlzdHJpYnV0ZWQgdW5kZXIgdGhlIExpY2Vuc2UgaXMgZGlzdHJpYnV0ZWQgb24gYW4gIkFTIElTIiBCQVNJUywKV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuClNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmQKbGltaXRhdGlvbnMgdW5kZXIgdGhlIExpY2Vuc2UuhUUAtwAAADtJREFUOMtjVCtZ9p+BAsDEQCGgrQE3uyMZbnZHDmUvEAMYkaORkH9hQL10OY1cgC0W0G0c7rEwNL0AAJeCEpM4iWKGAAAAAElFTkSuQmCC";
+                        objImg.alt = "collapse";
+                        objTable.className = "page_details";
+                        var arrTable = document.getElementsByClassName("detail");
+                        for (var i=0; i<arrTable.length; i++) {
+                            arrTable[i].style.display = "none";
+                        }
+                    }
+                };
+                function toggle_detail(detail_id) {
+                    var objTitle = document.getElementById("tdetail");
+                    var arrTable = document.getElementsByClassName("detail");
+                    for (var i=0; i<arrTable.length; i++) {
+                        var table = arrTable[i];
+                        if (table.id != detail_id) {
+                            table.style.display = "none";
+                        } else {
+                            if (table.style.display == "none" || table.style.display == "") {
+                                table.style.display = "table";
+                                objTitle.style.display = "block";
+                            } else {
+                                table.style.display = "none";
+                                objTitle.style.display = "none";
+                            }
+                        }
+                    }
+                };
+            </script>
+</head>
+<body>
+<h1>Load Test Results</h1>
+<hr size="1">
+<h2>Summary</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+<tr valign="top">
+<th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th><th>Median</th><th>90% Line</th><th>95% Line</th><th>99% Line</th><th>QPS/TPS</th><th>Throughput KB/Sec</th>
+</tr>
+<tr valign="top" class="Failure">
+<td align="center">1</td><td align="center">1</td><td align="center">0.00%</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">0.73 /s</td><td align="center">0.97</td>
+</tr>
+</table>
+<hr align="center" width="95%" size="1">
+<h2>Pages</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="center">
+<tr valign="top">
+<th>URL</th><th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th><th>Median</th><th>90% Line</th><th>95% Line</th><th>99% Line</th><th>QPS/TPS</th><th>Throughput KB/Sec</th><th></th>
+</tr>
+<tr valign="top" class="Failure">
+<td>HTTP Request</td><td align="center">1</td><td align="center">1</td><td align="center">0.00%</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">1370 ms</td><td align="center">0.73 /s</td><td align="center">0.97</td><td align="center"><a href="javascript:toggle_details('page_details_1')"><img alt="collapse" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEALQADQANam36RQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wDDQ0cLbeSRoIAAAL5dEVYdENvbW1lbnQATGljZW5zZWQgdG8gdGhlIEFwYWNoZSBTb2Z0d2FyZSBGb3VuZGF0aW9uIChBU0YpIHVuZGVyIG9uZSBvciBtb3JlCmNvbnRyaWJ1dG9yIGxpY2Vuc2UgYWdyZWVtZW50cy4gIFNlZSB0aGUgTk9USUNFIGZpbGUgZGlzdHJpYnV0ZWQgd2l0aAp0aGlzIHdvcmsgZm9yIGFkZGl0aW9uYWwgaW5mb3JtYXRpb24gcmVnYXJkaW5nIGNvcHlyaWdodCBvd25lcnNoaXAuClRoZSBBU0YgbGljZW5zZXMgdGhpcyBmaWxlIHRvIFlvdSB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wCih0aGUgIkxpY2Vuc2UiKTsgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoCnRoZSBMaWNlbnNlLiAgWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0CgogICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKClVubGVzcyByZXF1aXJlZCBieSBhcHBsaWNhYmxlIGxhdyBvciBhZ3JlZWQgdG8gaW4gd3JpdGluZywgc29mdHdhcmUKZGlzdHJpYnV0ZWQgdW5kZXIgdGhlIExpY2Vuc2UgaXMgZGlzdHJpYnV0ZWQgb24gYW4gIkFTIElTIiBCQVNJUywKV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuClNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmQKbGltaXRhdGlvbnMgdW5kZXIgdGhlIExpY2Vuc2UuhUUAtwAAADtJREFUOMtjVCtZ9p+BAsDEQCGgrQE3uyMZbnZHDmUvEAMYkaORkH9hQL10OY1cgC0W0G0c7rEwNL0AAJeCEpM4iWKGAAAAAElFTkSuQmCC" id="page_details_1_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_1">
+<td bgcolor="#FF0000" colspan="14">
+<div align="center">
+<b>Details for Page "HTTP Request"</b>
+<table width="95%" cellspacing="1" cellpadding="1" border="0" bgcolor="#2674A6" bordercolor="#000000">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td align="center"><a href="javascript:toggle_detail('HTTP Request_detail_1')">Thread Group 1-1</a></td><td align="center">1</td><td align="center">1370 ms</td><td align="center">1359</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<hr align="center" width="95%" size="1">
+<h2 id="tdetail">Details</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details detail" align="center" id="HTTP Request_detail_1">
+<tr valign="top">
+<th colspan="2">HTTP Request # Thread Group 1-1</th>
+</tr>
+<tr>
+<td class="key">Time</td><td>1370 ms</td>
+</tr>
+<tr>
+<td class="key">Latency</td><td>173 ms</td>
+</tr>
+<tr>
+<td class="key">Bytes</td><td>1359</td>
+</tr>
+<tr>
+<td class="key">Sample Count</td><td></td>
+</tr>
+<tr>
+<td class="key">Error Count</td><td></td>
+</tr>
+<tr>
+<td class="key">Response Code</td><td>404</td>
+</tr>
+<tr>
+<td class="key">Response Message</td><td>Not Found</td>
+</tr>
+<tr>
+<td class="key">Failure Message</td><td></td>
+</tr>
+<tr>
+<td class="key">Method/Url</td><td>GET https://www.cnblogs.com/UncleYong1/</td>
+</tr>
+<tr>
+<td class="key">Query String</td><td></td>
+</tr>
+<tr>
+<td class="key">Cookies</td><td></td>
+</tr>
+<tr>
+<td class="key">Request Headers</td><td>Connection: keep-alive
+Host: www.cnblogs.com
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
+</td>
+</tr>
+<tr>
+<td class="key">Response Headers</td><td>HTTP/1.1 404 Not Found
+Date: Sun, 04 Aug 2019 14:37:24 GMT
+Content-Type: text/html
+Content-Length: 759
+Connection: keep-alive
+X-UA-Compatible: IE=10
+X-Frame-Options: SAMEORIGIN
+</td>
+</tr>
+<tr>
+<td class="key">Response Data</td><td>﻿&lt;!DOCTYPE html&gt;&#13;
+&lt;html&gt;&#13;
+&lt;head&gt;&#13;
+    &lt;meta charset="utf-8"&gt;&#13;
+    &lt;title&gt;Error_404_资源不存在&lt;/title&gt;&#13;
+	&lt;style type="text/css"&gt;&#13;
+	body{margin:8% auto 0;max-width: 550px; min-height: 200px;padding:10px;font-family: Verdana,Arial,Helvetica,sans-serif;font-size:14px;}p{color:#555;margin:10px 10px;}img {border:0px;}.d{color:#404040;}&#13;
+	&lt;/style&gt;&#13;
+&lt;/head&gt;&#13;
+&lt;body&gt;&#13;
+&lt;a href="http://www.cnblogs.com/"&gt;&lt;img src="//static.cnblogs.com/images/logo_small.gif" alt="cnblogs"/&gt;&lt;/a&gt;&#13;
+&lt;p&gt;&lt;b&gt;404.&lt;/b&gt; 抱歉! 您访问的资源不存在!&lt;/p&gt;&#13;
+&lt;p class="d"&gt;请确认您输入的网址是否正确，如果问题持续存在，请发邮件至contact&amp;#64;cnblogs.com与我们联系。&lt;/p&gt;&#13;
+&lt;p&gt;&lt;a href="http://www.cnblogs.com/"&gt;返回网站首页&lt;/a&gt;&lt;/p&gt;&#13;
+&lt;/body&gt;&#13;
+&lt;/html&gt;</td>
+</tr>
+<tr>
+<td class="key">Response File</td><td></td>
+</tr>
+</table>
+</body>
+</html>
