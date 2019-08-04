@@ -206,4 +206,24 @@ User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_144)
   <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
 </httpSample>
 
+<httpSample t="1324" it="0" lt="136" ct="88" ts="1564928651885" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20551" sby="258" ng="1" na="1">
+  <httpSample t="136" it="0" lt="136" ct="88" ts="1564928651885" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="1184" it="0" lt="1167" ct="1050" ts="1564928652025" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20139" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
+<httpSample t="1293" it="0" lt="170" ct="84" ts="1564928665628" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20551" sby="258" ng="1" na="1">
+  <httpSample t="170" it="0" lt="170" ct="84" ts="1564928665628" s="true" lb="HTTP Request-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="text" by="412" sby="129" ng="1" na="1">
+    <java.net.URL>http://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <httpSample t="1119" it="0" lt="1099" ct="1057" ts="1564928665802" s="true" lb="HTTP Request-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="20139" sby="129" ng="1" na="1">
+    <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.cnblogs.com/UncleYong/</java.net.URL>
+</httpSample>
+
 </testResults>
